@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Simhon Chourasia</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,900|
+        Roboto+Slab:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/redlogo.png" alt="">
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation bar">
+                <span class="hamburger"></span>
+            </button>
+        
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">My Skills</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">My Projects</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <!--Intro-->
+        <section class="intro" id="home">
+            <h1 class="section-title section-title-intro">
+                My name is <strong>Simhon Chourasia</strong>
+            </h1>
+            <p class="section-subtitle section-subtitle-intro">My Portfolio</p>
+            <img src="img/simhon1.jpg" alt="Picture of Simhon Chourasia" class="intro-img">
+        </section>
+
+        <!--Skills-->
+        <section class="my-skills" id="skills">
+            <h2 class="section-title section-title-skills">My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Python</h3>
+                    <p>Years of Python experience for competitive programming, machine learning, and general use</p>
+                </div>
+                <div class="skill">
+                    <h3>Fullstack</h3>
+                    <p>Learning the MERN stack with projects.</p>
+                </div>  
+                <div class="skill">
+                    <h3>Frontend</h3>
+                    <p>Well-versed in HTML, CSS, JavaScript, and React. </p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">Take a look</a>
+        </section>
+
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section-title section-title-about">About Me</h2>
+            <p class="section-subtitle section-subtitle-about">Passionate computer science student at the University of Waterloo</p>
+
+            <div class="about-me-body">
+                <p>
+                    I'm a freshman student in the University of Waterloo class of 2025. I am in the Honours Computer Science with Co-op program, and am looking for opportunities for the summer of 2020.  
+                </p>
+                <p>
+                    I enjoy learning more about tech, working on projects, and a little bit of pure math. In my free time I work out, play the flute, and play video games. 
+                </p>
+                <p>
+                    <a href='./simhonresume20201027.pdf'>See my resume</a>
+                </p>
+            </div>
+
+            <img src="img/simhon2.jpg" alt="Group picture with Simhon" class="about-me-image">
+        </section>
+
+        <!--My Projects-->
+        <section class="my-projects" id="work">
+            <h2 class="section-title section-title-projects">My Projects</h2>
+            <p class="section-subtitle section-subtitle-projects">Some of the interesting things I've done</p>
+
+            <div class="portfolio">
+                <a href="portfolio-item-checkers.html" class="portfolio-item">
+                    <img src="img/project01.jpg" alt="" class="project-img">
+                </a>
+
+                <a href="portfolio-item-chess.html" class="portfolio-item">
+                    <img src="img/project02.jpg" alt="" class="project-img">
+                </a>
+
+                <a href="portfolio-item-vrobot.html" class="portfolio-item">
+                    <img src="img/project03.jpg" alt="" class="project-img">
+                </a>
+                <a href="portfolio-item-tfuse.html" class="portfolio-item">
+                    <img src="img/project04.jpg" alt="" class="project-img">
+                </a>
+                <a href="portfolio-item-df.html" class="portfolio-item">
+                    <img src="img/project05.jpg" alt="" class="project-img">
+                </a>
+                <a href="portfolio-item-investment.html" class="portfolio-item">
+                    <img src="img/project06.jpg" alt="" class="project-img">
+                </a>
+                <a href="portfolio-item-league.html" class="portfolio-item">
+                    <img src="img/project07.jpg" alt="" class="project-img">
+                </a>
+                <a href="portfolio-item-ml.html" class="portfolio-item">
+                    <img src="img/project08.jpg" alt="" class="project-img">
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:simhonchourasia@gmail.com" class="footer-link">simhonchourasia@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list-item"> <a class="social-list-link" 
+                    href="https://github.com/simhonchourasia">
+                    <i class="fab fa-github"></i></a></li>
+
+                <li class="social-list-item"> <a class="social-list-link" 
+                    href="https://www.linkedin.com/in/simhonc/">
+                    <i class="fab fa-linkedin"></i></a> </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
